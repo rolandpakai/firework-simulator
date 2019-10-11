@@ -117,7 +117,7 @@ const store = {
 	state: {
 		// will be unpaused in init()
 		paused: true,
-		soundEnabled: false,
+		soundEnabled: true,
 		menuOpen: false,
 		openHelpTopic: null,
 		fullscreen: isFullscreen(),
@@ -132,7 +132,7 @@ const store = {
 					? '1.2' // Profile header default (doesn't need to be an int)
 					: '2', // Mobile default
 			autoLaunch: true,
-			finale: false,
+			finale: true,
 			skyLighting: SKY_LIGHT_NORMAL + '',
 			hideControls: IS_HEADER,
 			longExposure: false,
