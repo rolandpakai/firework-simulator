@@ -1,6 +1,6 @@
-# local-minifier
+# firework-simulator
 
-This is a local environment that you can use to minify your CSS, JS, & HTML files.
+This is a firework simulator based on https://codepen.io/hoangthien1508/pen/YooJjv
 
 ## Getting Started
 
